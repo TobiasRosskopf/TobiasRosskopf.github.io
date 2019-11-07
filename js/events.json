@@ -1,12 +1,12 @@
-{
+[
     {
         "date": "2019/02/??",
         "event": "DAWAKO",
-        "location": "TU Darmstadt",
+        "location": "TU Darmstadt"
     },
     {
         "date": "2018/11/??",
         "event": "Seminar Starkregen",
-        "location": "TU München",
-    },
-}
+        "location": "TU München"
+    }
+]
