@@ -6,3 +6,13 @@ function showEvents() {
     };
     document.getElementById("events-data").innerHTML = data_row;
 }
+
+
+function showSkills() {
+var data_row =  "";
+    for (let i = 0; i < skillsData.length; i++) {
+        const skill = skillsData[i];
+        data_row += "<tr><td>" + skill.skill + "</td><td><a href='" + skill.link + "'>" + skill.started + "</a></td><td>" + skill.level + "</td></tr>";
+    };
+    document.getElementById("skills-data").innerHTML = data_row;
+}
