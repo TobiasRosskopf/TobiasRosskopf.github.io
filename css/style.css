@@ -4,7 +4,8 @@
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 html {
@@ -19,6 +20,26 @@ body {
     background-size: contain, cover;
 }
 
-h1, h2 {
+h1, h2, thead, a {
     color: #0C3F65;
+}
+
+thead {
+    font-weight: bold;
+}
+
+/* Container for skill bar */
+.skillcontainer {
+    width: 100%;
+    background-color: rgb(142, 197, 223);
+}
+
+/* Skill bar empty */
+.skillbar {
+    font-size: 0.75em;
+    text-align: right;
+    padding: 5px;
+    color: white;
+    background-color: #0C3F65;
+    white-space: nowrap;
 }
