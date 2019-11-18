@@ -26,6 +26,7 @@ h1, h2, thead, a {
 
 thead {
     font-weight: bold;
+    text-align: left;
 }
 
 /* Container for skill bar */
