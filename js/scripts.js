@@ -13,7 +13,7 @@ function showEvents() {
 
 
 function showSkills() {
-var table_rows =  "";
+    var table_rows =  "";
     for (let i = 0; i < skillsData.length; i++) {
         const skill = skillsData[i];
         table_rows += "<tr>"
@@ -28,6 +28,16 @@ var table_rows =  "";
 
     for (let i = 0; i < skillsData.length; i++) {
         const skill = skillsData[i];
-        document.getElementById(skill.skill).style.width = skill.level + "%";
+        let bar = document.getElementById(skill.skill);
+
+        // Set width
+        bar.style.width = skill.level + "%";
+
+        // Set color
+        let color = categoryColor[skill.category]
+        if (color == null) {
+            color = categoryColor["default"];
+        }
+        bar.style.backgroundColor = color;
     }
 }
