@@ -2,7 +2,7 @@ const categoryColor = {
     "GIS": "#00FF00",
     "Programming Language": "#FF0000",
     "Webdevelopment": "#0000FF",
-    "default": "#000000",
+    "default": "#AAAAFF",
 }
 
 const skillsData = [
