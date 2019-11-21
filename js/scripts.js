@@ -25,7 +25,8 @@ function showSkills() {
             + "</tr>";
         };
     document.getElementById("skills-data").innerHTML = table_rows;
-
+    //$("#skills-data").hide();
+    
     for (let i = 0; i < skillsData.length; i++) {
         const skill = skillsData[i];
         let bar = document.getElementById(skill.skill);
@@ -41,3 +42,9 @@ function showSkills() {
         bar.style.backgroundColor = color;
     }
 }
+
+
+$(function(){
+    $("#skills-data").hide();
+})
+
