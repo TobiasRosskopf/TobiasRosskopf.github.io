@@ -1,5 +1,11 @@
 const eventsData = [
     {
+        date: "27.11.2019",
+        event: "Jahreshauptversammlung der BWK Regionalgruppe",
+        location: "Darmstadt",
+        link: "http://www.bwk-hrps.de"
+    },
+    {
         date: "21.02.2019",
         event: "DAWAKO - Darmstädter wasserbau- und wasserwirtschaftliches Kolloquium",
         location: "TU Darmstadt",
@@ -9,7 +15,7 @@ const eventsData = [
         date: "06.06.2018",
         event: "Starkregen und Sturtzfluten - Erfassen, Erforschen, Evaluieren",
         location: "TU München",
-        link: "https://www.wasser.tum.de/fileadmin/w00bup/www/Uploads/Flyer_Etc/Seminar_Sturmfluten/FgHW-Seminar_06-2018_Programm.pdf"
+        link: "https://www.bgu.tum.de/hydrologie/startseite/"
     },
     {
         date: "30.11.2017",
