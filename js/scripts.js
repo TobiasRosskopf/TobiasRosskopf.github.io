@@ -25,7 +25,6 @@ function showSkills() {
             + "</tr>";
         };
     document.getElementById("skills-data").innerHTML = table_rows;
-    //$("#skills-data").hide();
     
     for (let i = 0; i < skillsData.length; i++) {
         const skill = skillsData[i];
@@ -45,6 +44,7 @@ function showSkills() {
 
 
 $(function(){
-    $("#skills-data").hide();
+    //$("#skills-data").hide();
+    showEvents();
 })
 
