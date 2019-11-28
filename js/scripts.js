@@ -45,6 +45,5 @@ function showSkills() {
 
 $(function(){
     //$("#skills-data").hide();
-    showEvents();
 })
 
