@@ -1,6 +1,6 @@
 const categoryColor = {
     "GIS": "#00FF00",
-    "Programming Language": "#FF0000",
+    "Programming": "#FF0000",
     "Webdevelopment": "#0000FF",
     "default": "#AAAAFF",
 }
@@ -9,7 +9,7 @@ const skillsData = [
     {
         skill: "Python",
         description: "",
-        category: "Programming Language",
+        category: "Programming",
         started: 2017,
         level: 90,
         link: "https://www.python.org"
@@ -17,7 +17,7 @@ const skillsData = [
    {
         skill: "Java",
         description: "",
-        category: "Programming Language",
+        category: "Programming",
         started: 2009,
         level: 65,
         link: "https://www.java.com"
@@ -25,7 +25,7 @@ const skillsData = [
     {
         skill: "C#",
         description: "",
-        category: "Programming Language",
+        category: "Programming",
         started: 2014,
         level: 40,
         link: ""
@@ -33,7 +33,7 @@ const skillsData = [
     {
         skill: "Fortran",
         description: "",
-        category: "Programming Language",
+        category: "Programming",
         started: 2016,
         level: 40,
         link: "https://www.fortran.com"

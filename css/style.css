@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    margin: 5% 10% 0% 10%;
+    margin: 5% 10% 50% 10%;
     background-color: #469AC1;
     background-image: linear-gradient(to bottom, #EFF8F1, #469AC1);
     background-repeat: no-repeat;
@@ -22,6 +22,10 @@ body {
 
 h1, h2, thead, a {
     color: #0C3F65;
+}
+
+table {
+    margin-bottom: 10%;
 }
 
 thead {
