@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/floodvis/react-test/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/floodvis/react-test/static/js/main.b3e311dc.chunk.js",
+    "main.js.map": "/floodvis/react-test/static/js/main.b3e311dc.chunk.js.map",
+    "runtime-main.js": "/floodvis/react-test/static/js/runtime-main.1fab0e21.js",
+    "runtime-main.js.map": "/floodvis/react-test/static/js/runtime-main.1fab0e21.js.map",
+    "static/js/2.4ca33314.chunk.js": "/floodvis/react-test/static/js/2.4ca33314.chunk.js",
+    "static/js/2.4ca33314.chunk.js.map": "/floodvis/react-test/static/js/2.4ca33314.chunk.js.map",
+    "static/js/3.c649a1e1.chunk.js": "/floodvis/react-test/static/js/3.c649a1e1.chunk.js",
+    "static/js/3.c649a1e1.chunk.js.map": "/floodvis/react-test/static/js/3.c649a1e1.chunk.js.map",
+    "index.html": "/floodvis/react-test/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/floodvis/react-test/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.4ca33314.chunk.js.LICENSE.txt": "/floodvis/react-test/static/js/2.4ca33314.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/floodvis/react-test/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fab0e21.js",
+    "static/js/2.4ca33314.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b3e311dc.chunk.js"
+  ]
+}
